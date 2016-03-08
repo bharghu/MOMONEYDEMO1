@@ -15,6 +15,8 @@
 		7E1CDD6E1C8EF03300E627A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1CDD6C1C8EF03300E627A9 /* LaunchScreen.storyboard */; };
 		7E1CDD791C8EF03300E627A9 /* MOMONEYDEMO1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CDD781C8EF03300E627A9 /* MOMONEYDEMO1Tests.m */; };
 		7E1CDD841C8EF03300E627A9 /* MOMONEYDEMO1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CDD831C8EF03300E627A9 /* MOMONEYDEMO1UITests.m */; };
+		7E1CDD931C8EF0B300E627A9 /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1CDD921C8EF0B300E627A9 /* AKPickerView.m */; };
+		7E1CDD951C8EFD4600E627A9 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E1CDD941C8EFD4600E627A9 /* LOGO.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		7E1CDD7F1C8EF03300E627A9 /* MOMONEYDEMO1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOMONEYDEMO1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1CDD831C8EF03300E627A9 /* MOMONEYDEMO1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOMONEYDEMO1UITests.m; sourceTree = "<group>"; };
 		7E1CDD851C8EF03300E627A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1CDD911C8EF0A900E627A9 /* AKPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		7E1CDD921C8EF0B300E627A9 /* AKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
+		7E1CDD941C8EFD4600E627A9 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +108,13 @@
 			children = (
 				7E1CDD611C8EF03300E627A9 /* AppDelegate.h */,
 				7E1CDD621C8EF03300E627A9 /* AppDelegate.m */,
+				7E1CDD911C8EF0A900E627A9 /* AKPickerView.h */,
+				7E1CDD921C8EF0B300E627A9 /* AKPickerView.m */,
 				7E1CDD641C8EF03300E627A9 /* ViewController.h */,
 				7E1CDD651C8EF03300E627A9 /* ViewController.m */,
 				7E1CDD671C8EF03300E627A9 /* Main.storyboard */,
 				7E1CDD6A1C8EF03300E627A9 /* Assets.xcassets */,
+				7E1CDD941C8EFD4600E627A9 /* LOGO.png */,
 				7E1CDD6C1C8EF03300E627A9 /* LaunchScreen.storyboard */,
 				7E1CDD6F1C8EF03300E627A9 /* Info.plist */,
 				7E1CDD5E1C8EF03300E627A9 /* Supporting Files */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1CDD951C8EFD4600E627A9 /* LOGO.png in Resources */,
 				7E1CDD6E1C8EF03300E627A9 /* LaunchScreen.storyboard in Resources */,
 				7E1CDD6B1C8EF03300E627A9 /* Assets.xcassets in Resources */,
 				7E1CDD691C8EF03300E627A9 /* Main.storyboard in Resources */,
@@ -272,6 +281,7 @@
 			files = (
 				7E1CDD661C8EF03300E627A9 /* ViewController.m in Sources */,
 				7E1CDD631C8EF03300E627A9 /* AppDelegate.m in Sources */,
+				7E1CDD931C8EF0B300E627A9 /* AKPickerView.m in Sources */,
 				7E1CDD601C8EF03300E627A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
